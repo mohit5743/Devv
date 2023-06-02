@@ -13,9 +13,9 @@ const App = () => (
   <Router>
     <Fragment> 
       <Navbar />
+      <Alert />
       <Routes>
       <Route path="/" element={<Landing />} />
-      <Alert />
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
       </Routes>
