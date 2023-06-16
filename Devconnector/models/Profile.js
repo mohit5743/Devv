@@ -93,14 +93,12 @@ const ProfileSchema = new mongoose.Schema({
         },
         twitter: {
           type: String,
-          required: true
         },
         facebook: {
           type: String
         },
         linkedin: {
           type: String,
-          required: true
         },
         instagram: {
           type: String
